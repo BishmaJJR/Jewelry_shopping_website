@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seren Jewelry</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="images/serenlogo_512x512.png" sizes="175x175" type="image/png" ><!--width x height ,,type tells the browser the file format-->
+
+
+ <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+ <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">  -->
+</head>
+<body>
+    <div id="container">
+    <table>
+        <tr>
+            <td>
+                <div id="image">
+            <img src="images/locationicon4.png" alt="Location badge" width="25">
+            </div>
+                </td>
+
+            
+                <td >
+                    <div id="link">
+            <a href="https://www.google.com/maps"><b>Find a Store Near You</b></a><!--the default target is _self --loads in the same page--> 
+            <div class="horizontal">
+  
+   <hr>  <!-- block element → takes full width and moves to next line even in inside tables HTML rules follow . Only if the html inline elements <a> enclosed within <div> and that div enclosed within <td> ,,,div is just a parent so as per anchor tag inline works and falls row wise -->
+   </div>
+  
+   </div>
+   
+   </td>
+   
+   </tr>
+   </table>
+   </div>
+   <!--2nd row logo and the headings , wishlist,fav ones-->
+<section class="tofixnavbar">
+    <table>
+        <tr>
+           
+        <td>
+    <img  id="storelogo"src="images/serenlogo.png" alt="shop logo" width="36">
+        </td>
+        <td>
+            <div id="seren">
+    <p id="seren">seren</p>
+      </div>  
+</td>
+<td>
+    <pre>         Shop By       Neckales       Earrings       Bracelets       Bangles       Charms       Fine Jewelry       Best Sellers       Gifts</pre>
+</td>
+<td><pre>   <img  class="hoverall"src="images/searchicon.png" alt="searchicon" width="26"></pre></td>
+<td><pre><img  class="hoverall"id="favouriteicon" src="images/favouriteicon.png" alt="favouriteicon"></pre></td>
+<td><pre >   <a  id="hoverSignIn" href="Signinpage.html">Sign In</a></pre></td>
+<td><pre><a href="shoppingbag.html"><img class="hoverall" id="shoppingbaglogo" src="images/shoppingbaglogo.png" alt="shoppingbaglogo"></a></pre></td>
+    </tr>
+    </table>
+</section>
+
+
+
+<!-- CHAIN IMAGE  -->
+<div class="buy2get1free">
+    <img class="chainimage" src="images/webchainbeigebg.webp" width="600" height="500" alt="">
+     <div class="get1free-bestsellers"> <!-- Only the direct children of .buy2get1free become flex items  Flexbox arranges .buy2get1free’s direct children (img and .get1free-bestsellers) side by side..get1free-bestsellers is treated as one block box in flex layout.Inside .get1free-bestsellers, normal block/inline layout rules apply:<p> is block → full width → on top<button> inline-block → next line below the <p>-->
+    <p>Buy 2 Get 1 Free</p>
+    <button onclick="window.location.href='bestsellers.html'">Shop Bestsellers</button>
+
+    </div>
+</div>
+   
+<!--ALL JEWELRY IMAGES-->
+ <p class="categories">Categories</p>
+<div class="alljewelryimages">
+   
+ <div class="items1"><a href="Bracelets.html"><img  class="bracelet-image"src="images/bracelet1.webp" alt="" width="200" height="300"></a><p>Bracelets<img src="images/right-arrowbrown.png"  class="rightarrow-image1" width="20px" height="20px"></p></div>
+<div class="items2"><img class="earring-image" src="images/earrings2.webp" alt=""  width="200" height="300"><p>Earrings<img  class="rightarrow-image2" src="images/right-arrowbrown.png" width="20px" height="20px"></p></div>
+<div class="items3"><img class="bangles-image" src="images/bangles4.webp" alt="" width="250" height="300"><p>Bangles<img class="rightarrow-image3" src="images/right-arrowbrown.png" width="20px" height="20px"></p></div>
+<div class="items4"><img class="necklace-image" src="images/necklace1.webp" alt=""  width="200" height="250"  ><p>Necklaces<img class="rightarrow-image4" src="images/right-arrowbrown.png" width="20px" height="20px"></p></div>
+<div class="items5"><img class="charms-image" src="images/charms3.png" alt="" width="240" height="310"><p>Charms<img class="rightarrow-image5" src="images/right-arrowbrown.png" width="20px" height="20px"></p></div>
+
+</div>
+   
+<!---->
+
+
+</body>
+</html>

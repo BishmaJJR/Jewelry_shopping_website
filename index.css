@@ -1,0 +1,360 @@
+
+
+a{
+     font-size:12px;
+     color:black;
+     text-decoration:none;
+    
+     cursor:pointer;
+      margin-top:6px;
+      
+      
+     
+}
+#image{
+    margin-top:-3px;
+}
+
+.horizontal{
+    margin-top:-7px;
+    color:black;
+    
+}
+
+
+#link{
+    padding-top:4.5px;
+    margin-left:4px;
+}
+
+
+
+img{
+    margin-left:70px;
+}
+
+
+
+*{
+    font-family: " Cochin", sans-serif; /*This is applied */
+  
+} 
+
+#container{
+    background-color: rgb(239, 234, 226);
+    width:100%;
+    height:38px;
+   
+    
+}
+body{
+    padding:0;
+   margin:0;
+   overflow-x:hidden;
+  
+
+}
+
+hr{
+    width:125px;
+   border: none;              /* Remove default browser border */
+  height: 1.4px;               /* Set thickness */
+  background-color:black;
+  
+    
+}
+
+#link:hover b {
+  color: grey;             /* Change b text */
+}
+
+#link:hover hr {
+  background-color: grey;  /* Change hr color */
+  cursor: pointer;         /* Pointer cursor for hr */
+}
+
+/* #link is the common parent of <b> and <hr>.
+
+Using #link:hover means: if the user hovers over either the <b> or the <hr> (or even empty space in #link), both elements react.
+
+This avoids needing JavaScript or complex sibling selectors. */
+
+/* Hover on a single element (individual tag)
+selector:hover
+#hoverSignIn:hover(using id)
+
+Hover on a parent affecting child elements
+#parent:hover childSelector
+
+Hover for multiple child elements at once (group hover)
+#link:hover b,
+#link:hover hr */
+
+/* b:hover{
+    color:grey;
+} */
+
+
+
+/*2nd row*/
+
+#storelogo{
+    margin-top:20px;
+    margin-left:42px;
+}
+
+ #seren p{
+    display:inline;
+    color:#C6A76D;
+}
+
+#seren{
+    margin-top: 10px;
+    margin-left:2.5px;
+    font-size:40px;
+}
+
+pre{
+    font-size:14.5px;
+    margin-top:33px;
+   
+}
+
+#hoverSignIn{
+    font-size:14.5px;
+    margin-top:33px;
+}
+
+#favouriteicon{
+    margin-left: 20px;
+    
+}
+
+#shoppingbaglogo{
+    margin-left:20px;
+}
+
+#hoverSignIn:hover {
+      color: grey;          /* Change text color */
+    
+      cursor: pointer;     /* Show pointer cursor */
+    }
+
+    /* Smooth animation for all hoverable images */
+/* .hoverall {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+} */
+
+/* Hover effect for images */
+.hoverall:hover {
+   transform: scale(1.2); 
+   /* scale(1.2) enlarges the element to 120% of its original size (1.0 = 100%).
+Example: */
+/* scale(1) → original size.
+scale(0.5) → shrinks to 50%.
+scale(2) → doubles in size. */
+   
+   /*Zoom the image */
+  opacity: 0.7;       
+      /* Slight transparency */
+/* 1 → fully opaque (default).
+0.7 → 70% opaque (30% transparent).
+0 → fully invisible. */
+  cursor: pointer;        /* Change cursor to indicate interactivity */
+}
+
+
+/* TO FIX NAVBAR */
+/* .tofixnavbar{
+    position:fixed;
+} */
+
+
+
+/*CHAIN IMAGE */
+
+.buy2get1free{
+    display:flex;
+    flex-direction:row;
+    
+}
+.chainimage{
+    margin-top:40px;
+    margin-right:150px;
+    margin-bottom:40px;
+   
+}
+
+.buy2get1free p{
+    margin-top:240px;
+    color:#705c3d;;
+    font-size:25px;
+    
+}
+
+.buy2get1free button{
+    border:none;
+    background-color:rgb(243, 243, 119);
+    padding:18px 44px;
+     color:#705c3d;;
+     border-radius:5%;
+     cursor:pointer;
+
+}
+
+/* ALL JEWELRY IMAGES */
+
+ .categories{
+    margin-top:20px;
+    color:#705c3d;;
+    font-size:25px;
+    margin-left:69px;
+    
+}
+.alljewelryimages{
+    display:inline-grid;  
+    grid-template-columns:auto auto auto;
+    width:100%;
+    height:520hv;
+    grid-gap:10px; /*row-gap: 10px;
+column-gap: 10px; */
+margin-left:-30px;
+
+
+}
+
+ .bracelet-image,
+.earring-image,
+.bangles-image,
+.necklace-image,
+.charms-image, 
+.rightarrow-image1,
+.rightarrow-image2,
+.rightarrow-image3,
+.rightarrow-image4,
+.rightarrow-image5 {
+    transition: transform 0.4s ease; /*transform-Only animate changes related to transform” */
+}
+
+
+
+
+ .alljewelryimages  .items4{
+    margin-top: 60px;;
+
+   
+
+    
+    }
+
+     .alljewelryimages  .items5{
+   margin-left:-30px;
+
+    
+    }
+
+    .alljewelryimages  .items1:hover  .bracelet-image {
+ transform:scalex(1.3)  translatex(5px);; 
+ cursor:pointer;
+    }
+
+      .alljewelryimages  .items1:hover  .rightarrow-image1 {
+transform:scalex(1.3) translatex(5px);;;
+cursor:pointer;
+
+    } 
+
+    
+    .alljewelryimages  .items2:hover  .earring-image,.alljewelryimages  .items2:hover  .rightarrow-image2 {
+ transform:scalex(1.3) translatex(5px);; 
+cursor:pointer;
+
+    }
+
+     .alljewelryimages  .items3:hover  .bangles-image,.alljewelryimages  .items3:hover  .rightarrow-image3 {
+transform:scalex(1.3)  translatex(5px);;; 
+cursor:pointer;
+    }
+
+     .alljewelryimages  .items4:hover  .necklace-image,.alljewelryimages  .items4:hover  .rightarrow-image4 {
+transform:scalex(1.3) translatex(5px);;; 
+cursor:pointer;
+    }
+
+     .alljewelryimages  .items5:hover  .charms-image,.alljewelryimages  .items5:hover  .rightarrow-image5{
+transform:scalex(1.3)  translatex(5px);;;
+cursor:pointer;
+    }
+
+
+    .alljewelryimages  .items2 p{
+ margin-left:135px;;
+ color:#705c3d;;
+    }
+
+     .alljewelryimages  .items3 p{
+ margin-left:160px;;
+ color:#705c3d;;
+    }
+
+     .alljewelryimages  .items1 p{
+ margin-left:110px;;
+ color:#705c3d;;
+    }
+
+     .alljewelryimages  .items4 p{
+ margin-left:110px;;
+ color:#705c3d;;
+    }
+
+     .alljewelryimages  .items5 p{
+ margin-left:160px;;
+ color:#705c3d;;
+
+    }
+
+    .alljewelryimages .items1 p, .alljewelryimages .items2 p,.alljewelryimages .items3 p,.alljewelryimages .items4 p,.alljewelryimages .items5 p{
+    position:relative;
+   
+    }
+
+     .alljewelryimages .items1 p  img{
+    position:absolute;
+    left:9px;
+    top:-1px;
+   
+    }
+
+  .alljewelryimages .items2 p  img{
+    position:absolute;
+    left:5px;
+    top:-1px;
+   
+    }
+
+    .alljewelryimages .items3 p  img{
+    position:absolute;
+    left:3px;
+    top:-1px;
+   
+    }
+
+    .alljewelryimages .items4 p  img{
+    position:absolute;
+    left:16px;
+    top:-1px;
+   
+    }
+
+    .alljewelryimages .items5 p  img{
+    position:absolute;
+    left:2px;
+    top:-1px;
+   
+    }
+    
+
+    
+
+    
+    
